@@ -4,14 +4,12 @@ type Foo interface {
 	Print()
 }
 
-type FooImpl struct {
-}
+type FooImpl struct{}
 
 func (i FooImpl) Print() {
 }
 
 func main() {
-
 	var foo Foo
 	var fooImplRef *FooImpl
 

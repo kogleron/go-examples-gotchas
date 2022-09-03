@@ -1,0 +1,6 @@
+#!/bin/sh
+
+go mod tidy && \
+make format && \
+make lint && \
+echo "OK"
